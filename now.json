@@ -1,0 +1,8 @@
+{
+  "alias": "teyejokes.now.sh",
+  "env": {},
+  "name": "teyejokes",
+  "engines": {
+    "node": "8.11.3"
+  }
+}
