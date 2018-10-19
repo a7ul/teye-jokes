@@ -1,0 +1,25 @@
+{
+  "name": "teyejokes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "teye"
+  ],
+  "author": "atulanand94@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "now": {
+    "engines": {
+      "node": "8.11.1"
+    }
+  }
+}
