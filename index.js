@@ -14,9 +14,13 @@ const fetchADadJoke = async () => {
 
 const server = http.createServer(async (req, res) => {
   res.statusCode = 200;
-  res.setHeader("Content-Type", "text/plain");
+  res.setHeader("Content-Type", "application/json");
   const joke = await fetchADadJoke();
-  res.end(joke);
+  const data = JSON.stringify({
+    response_type: "in_channel",
+    text: joke
+  });
+  res.end(data);
 });
 
 server.listen(port, () => {
